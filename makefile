@@ -9,3 +9,6 @@ LIBS = -lm
 2-NumericalDerivatives:
 	gcc $(CFLAGS) -o $@ 2-NumericalDerivatives.c $(LIBS)
 
+3-PiDigits:
+	gcc $(CFLAGS) -o $@ 3-PiDigits.c
+
