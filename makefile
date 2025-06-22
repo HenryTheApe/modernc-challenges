@@ -3,6 +3,12 @@ OPT_MACROS = -DDEBUG_MSG_ON
 CC=gcc
 LIBS = -lm
 
+all: \
+	1-SequentialSortingAlgorithms \
+	2-NumericalDerivatives \
+	3-PiDigits \
+	4-Union-Find
+
 1-SequentialSortingAlgorithms:
 	gcc $(CFLAGS) -o $@ 1-SequentialSortingAlgorithms.c
 
@@ -11,4 +17,7 @@ LIBS = -lm
 
 3-PiDigits:
 	gcc $(CFLAGS) -o $@ 3-PiDigits.c
+
+4-Union-Find:
+	gcc $(CFLAGS) -o $@ 4-Union-Find.c
 
