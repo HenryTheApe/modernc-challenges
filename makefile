@@ -8,7 +8,8 @@ all: \
 	2-NumericalDerivatives \
 	3-PiDigits \
 	4-Union-Find \
-	5-ComplexDerivatives
+	5-ComplexDerivatives \
+	7-UndirectedGraph
 
 1-SequentialSortingAlgorithms:
 	gcc $(CFLAGS) -o $@ 1-SequentialSortingAlgorithms.c
@@ -24,4 +25,8 @@ all: \
 
 5-ComplexDerivatives:
 	gcc $(CFLAGS) -o $@ 5-ComplexDerivatives.c $(LIBS)
+
+7-UndirectedGraph:
+	gcc $(CFLAGS) -o $@ 7-UndirectedGraph.c
+
 
